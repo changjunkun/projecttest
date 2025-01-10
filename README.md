@@ -20,6 +20,21 @@ git branch -M main
 git remote add origin git@github.com:changjunkun/aws.git
  git push -u origin main
 ...或者从命令行推送现有的存储库
+
+设置全局用户名和邮箱：
+
+git config --global user.name "changjunkun"
+git config --global user.email "1573024215@qq.com"
+修正当前提交的作者信息（可选）：
+
+
+git commit --amend --reset-author
+重新推送代码：
+
+git push -u origin main
+
+
+
 git remote add origin git@github.com:changjunkun/aws.git
  git branch -M main 
 git push -u origin main
