@@ -1,8 +1,14 @@
 # projecttest
+
 ssh-keygen -t rsa -b 4096 -C "1573024215@qq.com"
+
 eval "$(ssh-agent -s)"
+
 ssh-add ~/.ssh/id_rsa
+
 cat ~/.ssh/id_rsa.pub
+
+
 #Go to GitHub > Settings > SSH and GPG keys > New SSH key, and paste the key.
 Change the remote URL of your Git repository to use SSH instead of HTTPS:
 
