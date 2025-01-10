@@ -37,8 +37,10 @@ git config --global user.name "changjunkun"
 
 git config --global user.email "1573024215@qq.com"
 
- git config --global --list
+git config --global --list
+ 
 user.name=changjunkun
+
 user.eamil=1573024215@qq.com
 
 git add *
